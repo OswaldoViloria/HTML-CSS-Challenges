@@ -68,8 +68,8 @@ button {
   box-sizing: content-box;
     font-size: large;
 }
-button :hover {
-  color: gold;
+button:hover, :focus {
+  background-color: rgb(234, 133, 11);
 }
 
 footer {
@@ -146,7 +146,7 @@ footer {
 .giraffe > h2,h3 {
   color: #F4743B;
 }
-.news h2{
+.news > h2{
   text-align: center;
 }
 
@@ -203,7 +203,7 @@ footer {
 .membership {
   text-align: center;
   background-color: #fffffc;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -219,6 +219,7 @@ footer {
 
 .programs .card {
   display: inline-block;
-  padding: 5px;
+  vertical-align: top;
+  width: 25%;
 }
 
